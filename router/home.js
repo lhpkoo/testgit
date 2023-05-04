@@ -5,4 +5,4 @@ routes.get('/',(req,res)=>{
     res.send('home');
 });
 
-exports.module = routes 
+module.exports = routes 
